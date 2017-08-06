@@ -1,0 +1,46 @@
+This file is aimed at people who want to start coding in Perl.
+It is comprised of mistakes that came up often during my time of learning this language, and can be used as a general debugging guide.
+It is not written in any specific order.
+
+- array index starts at zero
+	nuff said
+
+- chomp input:
+	After accepting input, either from the user, or text file, it ends in a trailing newline ('\n')
+	This can lead to strange behavior during runtime that can be especially hard to identify, since it does not generate a specific error, but throws seemingly random errors upon runtime.
+	On the other hand, I also had situations where chomping input (from text file only, if I remember correctly) resulted in an error, but not chomping worked fine.
+	While I was never able to determine the cause for this unusual behavior, it should be noted that both variants should be tested when in doubt.
+
+- check parenthesis and brackets
+	More than once a script did not work because some kind of bracket, parenthesis or quotation mark was not the one i needed.
+	There are multiple guides on the internet for the different rules that apply to those elements. Most of the time these mistakes give a syntax-error in the IDE already.
+	
+- do not confuse comma and semicolon
+	nuff said
+
+- check for typos in variable names
+
+- use the original text file you read from
+	This may seem weird, but I have been in a lot of situations where i accidentally changed something in the text file I was working with (e.g.: a FASTA file),
+	and suddenly my script gave me strange errors. This does only show during runtime, and most of the time it looked like a problem in a loop, while the loop itself was correct, but the underlying text file was not.
+	Very hard to determine as an error source. Good practice: backup your sourcefile before running the script on it, and if in doubt reload the original one.
+	
+- make sure you are always using the right prefix for the different variables
+	$ = scalar
+	@ = array
+	% = hash
+	also note that the prefix changes if you are referring to for example a single element of an array.
+
+	
+Online resources:
+
+General tutorial:
+https://perlmaven.com/
+https://de.wikibooks.org/wiki/Perl-Programmierung
+https://learn.perl.org/
+
+Perl critic:
+http://www.perlcritic.com/
+
+Regex:
+https://wiki.selfhtml.org/wiki/Perl/Regul%C3%A4re_Ausdr%C3%BCcke

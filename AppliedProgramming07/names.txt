@@ -1,0 +1,7 @@
+barack	usa
+luke	tatooine
+katarina	noxus
+borat	kazakstan
+arwen	rivendell
+sombra	mexico
+aloy	sacred lands
