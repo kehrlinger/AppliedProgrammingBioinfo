@@ -1,0 +1,15 @@
+This is just a placeholder file to show the structure.
+
+
+#species name	tax id	core/periphery/adherent	source	source version
+Sinorhizobium fredii NGR234	394	periphery	Refseq	not available
+Desulfovibrio vulgaris str. Hildenborough	882	periphery	Refseq	not available
+Desulfovibrio vulgaris str. 'Miyazaki F'	883	periphery	Refseq	not available
+Synechococcus elongatus PCC 7942 871	1140	periphery	Refseq	not available
+Synechocystis sp. PCC 6803	1148	core	Refseq	not available
+Mycoplasma agalactiae	2110	periphery	Refseq	not available
+Phaeodactylum tricornutum	2850	core	Ensembl Protists	release 17
+Chlamydomonas reinhardtii	3055	core	Ensembl Plants	release 17
+Physcomitrella patens	3218	core	Ensembl Plants	release 17
+Populus trichocarpa	3694	core	Ensembl Plants	release 17
+Arabidopsis thaliana	3702	core	Ensembl Plants	release 17
