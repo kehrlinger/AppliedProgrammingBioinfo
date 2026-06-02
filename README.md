@@ -10,7 +10,7 @@ Solutions and final project for the APBI course at the University of Vienna (SS1
 
 This repository contains exercises from the course *2017S 300353-1 Applied Programming for Bioinformatics* — a practical introduction to programming for solving biological problems, with a focus on text processing and automation of external tools — as well as the final project: an orthologous group analysis using the eggNOG v4 database.
 
-> **Note:** This repo was updated in 2025 as part of a collaboration with [Hermes Agent](https://hermes-agent.nousresearch.com/) to test AI-assisted repository maintenance. The original content and structure have been preserved.
+> **Note:** This repo was updated in 2026 with [Hermes Agent](https://hermes-agent.nousresearch.com/) to test AI-assisted repository maintenance. The original content and structure have been preserved.
 
 ---
 
