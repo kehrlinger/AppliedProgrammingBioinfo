@@ -1,3 +1,5 @@
+> **[DEPRECATED]** This repository is no longer maintained here. It has moved to https://forgejo.kehrl.org/Kehrl/AppliedProgrammingBioinfo
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Perl](https://img.shields.io/badge/Perl-5-blue)](https://www.perl.org/)
 [![Python](https://img.shields.io/badge/Python-3-blue)](https://www.python.org/)
